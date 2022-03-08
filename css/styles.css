@@ -43,3 +43,15 @@ p.author {
 .important {
   color: red;
 }
+
+.unimportant {
+  color: blue;
+}
+
+.highlight {
+  color: blueviolet;
+}
+
+.fish-type {
+  color: goldenrod
+}
