@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 h1 {
   color: #00f;
   text-align: center;
@@ -108,4 +112,24 @@ p.author {
   background-color: orange;
   margin-bottom: 10px;
   box-sizing: border-box;
+}
+
+.digital p {
+  background-color: red;
+}
+
+.digital p a {
+  font-weight: bold;
+}
+
+a {
+  font-weight: normal;
+}
+
+.analog p {
+  background-color: yellow;
+}
+
+.analog p a {
+  font-style: italic;
 }
