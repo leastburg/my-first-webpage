@@ -55,3 +55,13 @@ p.author {
 .fish-type {
   color: goldenrod
 }
+
+img {
+  float: left;
+}
+
+.sidebar {
+  width: 30%;
+  float: right;
+  background-color:yellow;
+}
