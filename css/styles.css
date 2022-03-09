@@ -24,11 +24,6 @@ ol {
   font-family: Helvetica;
 }
 
-img {
-  width: 300px;
-  text-align: center;
-}
-
 p.intro {
   width: 50%;
   font-style: italic;
@@ -56,10 +51,6 @@ p.author {
   color: goldenrod
 }
 
-img {
-  float: left;
-}
-
 .sidebar {
   width: 30%;
   float: right;
@@ -72,11 +63,24 @@ img {
 }
 
 .my-class {
-  margin: 12px;
   border: 2px solid green;
-  padding: 4px;
+  padding: 10px;
   background-color: orange;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  box-sizing: border-box;
+  }
+
+.centered-image {
+  margin: auto;
+  width: 50%;
+  height: auto;
+  display: block;
 }
+
 .box1 {
   width: 50%;
   border: solid black;
